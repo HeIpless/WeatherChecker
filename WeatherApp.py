@@ -33,7 +33,7 @@ def check_ip_address():
         ip = get_ip_address()
         print("Your IP Address is:", ip)
 
-# Function to get location from user or use IP-based location
+
 def get_location():
     location_input = input("Enter a location (city, country) or press Enter to use your IP-based location: ").strip()
     if not location_input:
